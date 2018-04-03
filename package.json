@@ -1,0 +1,30 @@
+{
+  "name": "my-webpack-boilerplate",
+  "version": "1.0.0",
+  "description": "A boilerplate for me (and me only)!",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --open --hot --mode development --contentBase ./dist",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WheatleyTheCoder/my-webpack-boilerplate.git"
+  },
+  "keywords": [],
+  "author": "WheatleyTheCoder (http://project2.neocities.org/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/WheatleyTheCoder/my-webpack-boilerplate/issues"
+  },
+  "homepage": "https://github.com/WheatleyTheCoder/my-webpack-boilerplate#readme",
+  "devDependencies": {
+    "babel-core": "6.26.0",
+    "babel-loader": "7.1.4",
+    "babel-preset-env": "1.6.1",
+    "html-webpack-plugin": "3.2.0",
+    "webpack": "4.4.1",
+    "webpack-cli": "2.0.13",
+    "webpack-dev-server": "3.1.1"
+  }
+}
